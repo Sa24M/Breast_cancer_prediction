@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sbn
 import sklearn as sklearn
-df=pd.read_csv("data.csv")
+df=pd.read_csv("Breast_cancer_prediction\data.csv")
 
 # Specify the row numbers (index) of the first and last columns you want to include
 first_column_index = 2  # Replace with the actual index of the first column
